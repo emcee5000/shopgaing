@@ -21,7 +21,7 @@ body {
   padding-top: 80px;
 }
 p{
-    color: #fff;
+    color: #2F3440;
 }
 .brand {
     border:none !important;
@@ -40,7 +40,6 @@ p{
     float: none;
     margin: 0 auto;
 }
-
 .center {
     width: 640px;
     height: 640px;
@@ -65,9 +64,14 @@ p{
     margin: 0 !important;
 }
 .productList li img{
-    padding-left: 10px;
+    padding: 10px 0 0 10px;
 }
-
+.pageIntro{
+    padding: 25px 10px 0 10px;
+}
+.textCenter{
+    text-align: center;
+}
 
 /*Media Queries*/
 
@@ -82,4 +86,6 @@ body{
 .tile{
     margin-bottom: 10px !important;
 }
+
+
 }

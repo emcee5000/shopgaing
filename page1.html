@@ -7,143 +7,85 @@
         <!-- Loading Bootstrap -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+        <!--Loading Main Styles-->
+        <link href="css/main.css" rel="stylesheet">
         <!-- load JQuery Mobile UI -->
         <link rel="stylesheet" href="themes/SHOPGAING.min.css" />
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile.structure-1.3.2.min.css" />
-        <!--Loading Main Styles-->
-        <link href="css/main.css" rel="stylesheet">
         <!-- Loading Flat UI -->
         <link href="css/flat-ui.css" rel="stylesheet">
         <link rel="shortcut icon" href="images/favicon.ico">
-        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-                    <!--[if lt IE 9]>
-                    <!-- load JQuery Mobile UI -->
-        <script src="js/html5shiv.js"></script>
-                                                                                                                                                                                                                            <![endif]-->
     </head>
     <body>
         <!--Navbar-->
-        <!-- Fixed navbar -->
-        <div class="navbar navbar-fixed-top navbar-inverse">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#"><img src="images/layout/logoSmall.png" alt="ShopGaing" /></a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">Join Gaing</a></li>
-                            <li><a href="#contact">Daily Deals</a></li>
-                                                            <!--<li class="dropdown">
-                                                                                                                                                                                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                                                                                                                                                                                                                <ul class="dropdown-menu">
-                                                                                                                                                                                                                                    <li><a href="#">Action</a></li>
-                                                                                                                                                                                                                                    <li><a href="#">Another action</a></li>
-                                                                                                                                                                                                                                    <li><a href="#">Something else here</a></li>
-                                                                                                                                                                                                                                    <li class="divider"></li>
-                                                                                                                                                                                                                                    <li class="nav-header">Nav header</li>
-                                                                                                                                                                                                                                    <li><a href="#">Separated link</a></li>
-                                                                                                                                                                                                                                    <li><a href="#">One more separated link</a></li>
-                                                                                                                                                                                                                                </ul>
-                                                                                                                                                                                                                            </li>-->
-                        </ul>
-                        <ul class="nav pull-right">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Gaings<b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>-->
-                        </ul>
-                    </div><!--/.nav-collapse -->
-                </div>
-            </div>
+        <!--jquery ui header-->
+        <div data-role="header" data-position="fixed">
+            <h1><img src="images/layout/logoSmall.png" alt="ShopGain"></h1>
+            <a href="#" data-icon="back" data-back-btn-text="previous">Back</a>
+            <a href="#" data-icon="gear" class="ui-btn-right">Options</a>
         </div>
 
-        <!--Navbar-->
         <div class="container span12">
             <div class="row span12">
-                <p>Leverage the power of "gaing" shopping with ShopGaing.  Get the best price on the items you want by leveraging the power of gaing.</p>
+                <div class="pageIntro">
+                    <p>Leverage the power of "gaing" shopping with ShopGaing.  Get the best price on the items you want by leveraging the power of gaing.</p>
+                </div>
             </div>
+        <!-- /Navbar -->
             <hr>
             <div class="row span12">
-                <!--row 1-->
-                <div class="container row span12">
-                    <div class="span3">
-                        <div class="tile">
-                            <img src="images/sgIcons/laptop.png" alt="Electronics" class="tile-image big-illustration">
-                            <h3 class="tile-title">Electronics</h3>
-                            <p>TVs, phones, tablets, laptops and more...</p>
-                            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Browse Gaings</a>
-                        </div>
+                <div class="ui-grid-b">
+                    <div class="ui-block-a textCenter">
+                        <img src="images/sgIcons/laptop.png" alt="Electronics" class="tile-image big-illustration">
+                        <h3 class="tile-title">Electronics</h3>
+                        <p>TVs, phones, tablets, laptops and more...</p>
+                        <a class="btn" href="page2.html">Browse Gaings</a>
                     </div>
-                    <div class="span3">
-                        <div class="tile">
-                            <img src="images/sgIcons/car.png" alt="Automotive" class="tile-image big-illustration">
-                            <h3 class="tile-title">Automotive</h3>
-                            <p>Cars, trucks, parts, etc...</p>
-                            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Browse Gaings</a>
-                        </div>
+                    <div class="ui-block-b textCenter">
+                        <img src="images/sgIcons/car.png" alt="Automotive" class="tile-image big-illustration">
+                        <h3 class="tile-title">Automotive</h3>
+                        <p>Cars, trucks, parts, etc...</p>
+                        <a class="btn" href="page2.html">Browse Gaings</a>
                     </div>
-                    <div class="span3">
-                        <div class="tile">
-                            <img src="images/sgIcons/home.png" alt="Home Goods" class="tile-image big-illustration">
-                            <h3 class="tile-title">Home</h3>
-                            <p>Washer/dryers, mops, etc...</p>
-                            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Browse Gaings</a>
-                        </div>
+                    <div class="ui-block-a textCenter">
+                        <img src="images/sgIcons/home.png" alt="Home Goods" class="tile-image big-illustration">
+                        <h3 class="tile-title">Home</h3>
+                        <p>Washer/dryers, mops, etc...</p>
+                        <a class="btn" href="page2.html">Browse Gaings</a>
                     </div>
-                </div>
-                <!--row 2-->
-                <hr>
-                <div class="container row span12" style="margin-top: 20px;">
-                    <div class="span3">
-                        <div class="tile">
-                            <img src="images/sgIcons/travel.png" alt="Travel" class="tile-image big-illustration">
-                            <h3 class="tile-title">Travel</h3>
-                            <p>Best deals on flights, hotels, and vacation packages.</p>
-                            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Browse Gaings</a>
-                        </div>
+                    <div class="ui-block-b textCenter">
+                        <img src="images/sgIcons/travel.png" alt="Travel" class="tile-image big-illustration">
+                        <h3 class="tile-title">Travel</h3>
+                        <p>Best deals on flights, hotels, and vacation packages.</p>
+                        <a class="btn" href="page2.html">Browse Gaings</a>
                     </div>
-                    <div class="span3">
-                        <div class="tile">
-                            <img src="images/sgIcons/drill.png" alt="Tools" class="tile-image big-illustration">
-                            <h3 class="tile-title">Tools</h3>
-                            <p>Power tools and hardware gaings.</p>
-                            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Browse Gaings</a>
-                        </div>
+                    <div class="ui-block-a textCenter">
+                        <img src="images/sgIcons/drill.png" alt="Tools" class="tile-image big-illustration">
+                        <h3 class="tile-title">Tools</h3>
+                        <p>Power tools and hardware gaings.</p>
+                        <a class="btn" href="page2.html">Browse Gaings</a>
                     </div>
-                    <div class="span3">
-                        <div class="tile">
-                            <img src="images/sgIcons/sports.png" alt="Sporting Goods" class="tile-image big-illustration">
-                            <h3 class="tile-title">Sporting Goods</h3>
-                            <p>Best deals on golf, basketball, football, soccer and all sporting equipment and apparel. </p>
-                            <a class="btn btn-primary btn-large btn-block" href="http://designmodo.com/flat">Browse Gaings</a>
-                        </div>
+                    <div class="ui-block-b textCenter">
+                        <img src="images/sgIcons/sports.png" alt="Sporting Goods" />
+                        <h3 class="tile-title">Sporting Goods</h3>
+                        <p>Best deals on golf, basketball, football, soccer and all sporting equipment and apparel. </p>
+                        <a class="btn" href="page2.html">Browse Gaings</a>
                     </div>
-
                 </div>
             </div>
             <!--/ Login-->
         </div>
-        <div class="navbar navbar-fixed-bottom">
-            <ul class="nav">
-                <li class="active"><a href="#">Scan Barcode</a></li>
-                <li><a href="#about">Search Gaings</a></li>
-            </ul>
-        </div>
-
-
+        <!--Footer-->
+       <div data-role="footer" data-id="foo1" data-position="fixed">
+	<div data-role="navbar">
+		<ul>
+			<li><a href="a.html">Link 1</a></li>
+			<li><a href="b.html">Link 2</a></li>
+			<li><a href="c.html">Link 3</a></li>
+			<li><a href="d.html">Link 4</a></li>
+		</ul>
+	</div><!-- /navbar -->
+</div><!-- /footer -->
         <!-- Load JS here for greater good =============================-->
         <script src="js/jquery-1.8.3.min.js"></script>
         <script src="js/jquery-ui-1.10.3.custom.min.js"></script>

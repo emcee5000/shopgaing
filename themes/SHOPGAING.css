@@ -14,20 +14,20 @@
 /* A
 -----------------------------------------------------------------------------------------------------------*/
 .ui-bar-a {
-	border: 1px solid #f5e5c0 /*{a-bar-border}*/;
-	background: #f5e5c0 /*{a-bar-background-color}*/;
-	color: #000000 /*{a-bar-color}*/;
+	border: 1px solid #2f3440 /*{a-bar-border}*/;
+	background: #2f3440 /*{a-bar-background-color}*/;
+	color: #ffffff /*{a-bar-color}*/;
 	font-weight: bold;
-	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eeeeee /*{a-bar-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #FFfbd3 /*{a-bar-background-start}*/), to( #dcceac /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient( #FFfbd3 /*{a-bar-background-start}*/, #dcceac /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient( #FFfbd3 /*{a-bar-background-start}*/, #dcceac /*{a-bar-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient( #FFfbd3 /*{a-bar-background-start}*/, #dcceac /*{a-bar-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient( #FFfbd3 /*{a-bar-background-start}*/, #dcceac /*{a-bar-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient( #FFfbd3 /*{a-bar-background-start}*/, #dcceac /*{a-bar-background-end}*/);
+	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #444444 /*{a-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #333946 /*{a-bar-background-start}*/), to( #2a2e39 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #333946 /*{a-bar-background-start}*/, #2a2e39 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #333946 /*{a-bar-background-start}*/, #2a2e39 /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #333946 /*{a-bar-background-start}*/, #2a2e39 /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #333946 /*{a-bar-background-start}*/, #2a2e39 /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #333946 /*{a-bar-background-start}*/, #2a2e39 /*{a-bar-background-end}*/);
 }
 .ui-bar-a .ui-link-inherit {
-	color: #000000 /*{a-bar-color}*/;
+	color: #ffffff /*{a-bar-color}*/;
 }
 .ui-bar-a a.ui-link {
 	color: #7cc4e7 /*{a-bar-link-color}*/;
@@ -51,16 +51,16 @@
 }
 .ui-body-a,
 .ui-overlay-a {
-	border: 1px solid #aaaaaa /*{a-body-border}*/;
-	color: #333333 /*{a-body-color}*/;
-	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #ffffff /*{a-body-shadow-color}*/;
-	background: #f9f9f9 /*{a-body-background-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #f9f9f9 /*{a-body-background-start}*/), to( #eeeeee /*{a-body-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient( #f9f9f9 /*{a-body-background-start}*/, #eeeeee /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient( #f9f9f9 /*{a-body-background-start}*/, #eeeeee /*{a-body-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient( #f9f9f9 /*{a-body-background-start}*/, #eeeeee /*{a-body-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient( #f9f9f9 /*{a-body-background-start}*/, #eeeeee /*{a-body-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient( #f9f9f9 /*{a-body-background-start}*/, #eeeeee /*{a-body-background-end}*/);
+	border: 1px solid #868682 /*{a-body-border}*/;
+	color: #000000 /*{a-body-color}*/;
+	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ #eeeeee /*{a-body-shadow-color}*/;
+	background: #f4f5ed /*{a-body-background-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FFFFFF /*{a-body-background-start}*/), to( #dbdcd5 /*{a-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #FFFFFF /*{a-body-background-start}*/, #dbdcd5 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #FFFFFF /*{a-body-background-start}*/, #dbdcd5 /*{a-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #FFFFFF /*{a-body-background-start}*/, #dbdcd5 /*{a-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #FFFFFF /*{a-body-background-start}*/, #dbdcd5 /*{a-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #FFFFFF /*{a-body-background-start}*/, #dbdcd5 /*{a-body-background-end}*/);
 }
 .ui-overlay-a {
 	background-image: none;
@@ -74,7 +74,7 @@
 	 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 }
 .ui-body-a .ui-link-inherit {
-	color: #333333 /*{a-body-color}*/;
+	color: #000000 /*{a-body-color}*/;
 }
 .ui-body-a .ui-link {
 	color: #2489ce /*{a-body-link-color}*/;
@@ -435,19 +435,19 @@ a.ui-link-inherit {
 /* Active class used as the "on" state across all themes
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-active {
-	border: 1px solid #3f5666 /*{global-active-border}*/;
-	background: #3f5666 /*{global-active-background-color}*/;
+	border: 1px solid #ff5145 /*{global-active-border}*/;
+	background: #ff5145 /*{global-active-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{global-active-color}*/;
 	cursor: pointer;
 	text-shadow: 0 /*{global-active-shadow-x}*/ 0 /*{global-active-shadow-y}*/ 0 /*{global-active-shadow-radius}*/ #444444 /*{global-active-shadow-color}*/;
 	text-decoration: none;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #455e70 /*{global-active-background-start}*/), to( #384d5b /*{global-active-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient( #455e70 /*{global-active-background-start}*/, #384d5b /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient( #455e70 /*{global-active-background-start}*/, #384d5b /*{global-active-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient( #455e70 /*{global-active-background-start}*/, #384d5b /*{global-active-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient( #455e70 /*{global-active-background-start}*/, #384d5b /*{global-active-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient( #455e70 /*{global-active-background-start}*/, #384d5b /*{global-active-background-end}*/);
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FF594b /*{global-active-background-start}*/), to( #e5483e /*{global-active-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #FF594b /*{global-active-background-start}*/, #e5483e /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #FF594b /*{global-active-background-start}*/, #e5483e /*{global-active-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #FF594b /*{global-active-background-start}*/, #e5483e /*{global-active-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #FF594b /*{global-active-background-start}*/, #e5483e /*{global-active-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #FF594b /*{global-active-background-start}*/, #e5483e /*{global-active-background-end}*/);
 	 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 }
 .ui-btn-active:visited,
@@ -464,8 +464,8 @@ a.ui-link-inherit {
 /* corner rounding classes
 -----------------------------------------------------------------------------------------------------------*/
 .ui-corner-all {
-	-webkit-border-radius: 0em /*{global-radii-blocks}*/;
-	border-radius: 0em /*{global-radii-blocks}*/;
+	-webkit-border-radius: 0 /*{global-radii-blocks}*/;
+	border-radius: 0 /*{global-radii-blocks}*/;
 }
 /* Form field separator
 -----------------------------------------------------------------------------------------------------------*/
@@ -703,7 +703,7 @@ a.ui-link-inherit {
 }
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
-	background-color: #3f5666 /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
+	background-color: #ff5145 /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
 }
 /* loading icon */
 .ui-icon-loading {
@@ -713,8 +713,8 @@ a.ui-link-inherit {
 /* Button corner class
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-corner-all {
-	-webkit-border-radius: 0.1em /*{global-radii-buttons}*/;
-	border-radius: 0.1em /*{global-radii-buttons}*/;
+	-webkit-border-radius: 0 /*{global-radii-buttons}*/;
+	border-radius: 0 /*{global-radii-buttons}*/;
 }
 /* radius clip workaround for cleaning up corner trapping */
 .ui-corner-all,
@@ -769,15 +769,15 @@ a.ui-link-inherit {
 }
 .ui-focus,
 .ui-btn:focus {
-	-moz-box-shadow: inset 0 0 3px #3f5666 /*{global-active-background-color}*/, 0 0 9px #3f5666 /*{global-active-background-color}*/;
-	-webkit-box-shadow: inset 0 0 3px #3f5666 /*{global-active-background-color}*/, 0 0 9px #3f5666 /*{global-active-background-color}*/;
-	box-shadow: inset 0 0 3px #3f5666 /*{global-active-background-color}*/, 0 0 9px #3f5666 /*{global-active-background-color}*/;
+	-moz-box-shadow: inset 0 0 3px #ff5145 /*{global-active-background-color}*/, 0 0 9px #ff5145 /*{global-active-background-color}*/;
+	-webkit-box-shadow: inset 0 0 3px #ff5145 /*{global-active-background-color}*/, 0 0 9px #ff5145 /*{global-active-background-color}*/;
+	box-shadow: inset 0 0 3px #ff5145 /*{global-active-background-color}*/, 0 0 9px #ff5145 /*{global-active-background-color}*/;
 }
 .ui-input-text.ui-focus,
 .ui-input-search.ui-focus {
-	-moz-box-shadow: 0 0 12px #3f5666 /*{global-active-background-color}*/;
-	-webkit-box-shadow: 0 0 12px #3f5666 /*{global-active-background-color}*/;
-	box-shadow: 0 0 12px #3f5666 /*{global-active-background-color}*/;	
+	-moz-box-shadow: 0 0 12px #ff5145 /*{global-active-background-color}*/;
+	-webkit-box-shadow: 0 0 12px #ff5145 /*{global-active-background-color}*/;
+	box-shadow: 0 0 12px #ff5145 /*{global-active-background-color}*/;	
 }
 /* unset box shadow in browsers that don't do it right
 -----------------------------------------------------------------------------------------------------------*/
