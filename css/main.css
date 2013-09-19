@@ -64,6 +64,9 @@ p{
 {
     margin: 0 !important;
 }
+.productList li img{
+    padding-left: 10px;
+}
 
 
 /*Media Queries*/
